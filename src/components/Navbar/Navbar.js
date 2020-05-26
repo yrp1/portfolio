@@ -27,12 +27,12 @@ const Navbar = () => {
 			    </ul>
   			  </div>
 			</nav>
-			<div className=" br-3 pa4  ml1 mr1 ">
-				<img alt = "bg"src ={bg} className = "image"/>
+			<div className=" br3 pa4  ml1 mr1">
+				<img src={bg} className="img-fluid" alt="Responsive image"/>
 					<div className="container">
-						<div className="d-flex flex-column bd-highlight mb-3">
-						  <div className="p-2 bd-highlight name shadow-5 br-3 pa4 grow ">HEY,I'M Yash</div>
-						  <div className="p-2 bd-highlight frontend text-uppercase shadow-1 br-3 pa4 grow">frontend developer</div>
+						<div className="container d-flex flex-column bd-highlight ">
+						  <div className="name ">HEY,I'M Yash</div>
+						  <div className="frontend">frontend developer</div>
 						</div>
 					</div>
 			</div>

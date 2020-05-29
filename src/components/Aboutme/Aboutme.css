@@ -1,5 +1,5 @@
 .yash{
-width: 90%;
+width: 100%;
 height: auto;
  background: url(yrp.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -10,14 +10,27 @@ height: auto;
 }
 
 .text{
-	    font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,
-	    sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
 	    font-size: 18px;
-		background: #6c757d26;
+		background: none;
 		text-align: left;
+		font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,
+		sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
 }
 
 .about{
 	color:#777777;
 }
 
+.amm{
+	justify-content: center;
+}
+
+.fontfam{
+	font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial
+	,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: orange;
+}

@@ -29,12 +29,12 @@ const Navbar = () => {
 			</nav>
 			<div className=" br3 pa4  ml1 mr1">
 				<img src={bg} className="img-fluid" alt="Responsive image"/>
-					<div className="container">
-						<div className="container d-flex flex-column bd-highlight ">
-						  <div className="name ">HEY,I'M Yash</div>
+				
+						<div className="container-fluid d-flex flex-column bd-highlight ">
+						  <div className="name">HEY,I'M Yash</div>
 						  <div className="frontend">frontend developer</div>
 						</div>
-					</div>
+					
 			</div>
 	</div>
 		

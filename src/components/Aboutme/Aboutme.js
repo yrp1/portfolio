@@ -4,16 +4,16 @@ import yrp from "./yrp.jpg"
 
 const Aboutme = () => {
 	return(
-		<div>
+		<div className="color ml3 mr3">
 			<div className="container-fluid mb5 pa4">
 						<div className="d-flex flex-column bd-highlight mb3">
-						  <div className="p-2 bd-highlight tc b f1 fontfam">Yash Patel</div>
+						  <div className="p-2 bd-highlight tc b f2 fontfam">Yash Patel</div>
 						  <div className="p-2 bd-highlight tc i f3 about pa0">AboutMe</div>
 						</div>
 
 					<div className="row amm">
 						  <div className="col-md-5"><img className="img-fluid yash pa3 br3 shadow-2 grow"alt="img"src={yrp}/></div>
-						  <div className="col-md-5 text br3 pa4"><p><i>Hey, I'm Yash Patel, frontend developer. 
+						  <div className="col-md-5 text pa4"><p><i>Hey, I'm Yash Patel, frontend developer. 
 									I have a MEng degree in Electrical and Computer
 									Engineering from the University of Ottawa. Self and quick learner, 
 									highly motivated in learning and developing new skills. <br/><br/>Experienced in <b>HTML/HTML5, CSS/CSS3, SemanticUI, Responsive Design, Flexbox,

@@ -4,7 +4,7 @@ import yrp from "./yrp.jpg"
 
 const Aboutme = () => {
 	return(
-		<div className="color ml3 mr3">
+		<div className="color ml3 mr3" id="aboutme">
 			<div className="container-fluid mb5 pa4">
 						<div className="d-flex flex-column bd-highlight mb3">
 						  <div className="p-2 bd-highlight tc b f2 fontfam">Yash Patel</div>

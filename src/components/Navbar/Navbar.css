@@ -33,8 +33,21 @@ height: auto;
    font-size: calc(90% + 1vw + 1vh);
 }
 
-.tab{
+.ff{
 	position: fixed;
-    top: 0;
-    z-index: 999;
+  top: 0;
+  width:100%;
+}
+
+li{
+  margin-top: 1%;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,
+    sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+
+}
+
+.nav-item > .active {
+    border-bottom: 1px solid #333;
 }

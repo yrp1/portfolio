@@ -6,7 +6,7 @@ import { Link } from "react-scroll"
 const Navbar = () => {
 	return(
 	<div id = "home" >
-			<nav className="navbar navbar-expand-lg navbar-light bg-light ff" role="navigation">
+			<nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light add" role="navigation">
 			  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span className="navbar-toggler-icon"></span>
 			  </button>
@@ -20,10 +20,9 @@ const Navbar = () => {
 					    spy={true}
 					    smooth={true}
 					    offset={-10}
-					    duration= {500}
-					    >
+					    duration= {500}>
 					    Home </Link>
->
+
 			      </li>
 			      <li className="nav-item active">
 			        <Link
@@ -32,10 +31,9 @@ const Navbar = () => {
 					    spy={true}
 					    smooth={true}
 					    offset={-10}
-					    duration= {500}
-					    >
+					    duration= {500}>
 					    Aboutme </Link>
->
+
 			      </li>
 			      <li className="nav-item active">
 			        <Link
@@ -43,9 +41,8 @@ const Navbar = () => {
 					    to="portfolio"
 					    spy={true}
 					    smooth={true}
-					    offset={-10}
-					    duration= {500}
-					    >
+					    offset={-20}
+					    duration= {500}>
 					    Portfolio </Link>
 			      </li>
 			   
@@ -53,13 +50,13 @@ const Navbar = () => {
   			  </div>
 			</nav>
 			<div className="container-fluid br3 pa4  ml1 mr1">
-				<img src={bg} className="img-fluid" alt="Responsive image"/>
+				<img src={bg} className="img-fluid" alt="background"/>
 
 						<div className="container-fluid d-flex flex-column bd-highlight ">
 						  <div className="name">HEY,I'M Yash</div>
 						  <div className="frontend">frontend developer</div>
 						</div>
-					
+
 			</div>
 	</div>
 		

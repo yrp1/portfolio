@@ -6,7 +6,7 @@ import "./Portfolio.css"
 
 const Portfolio = () =>{
 	return(
-		<div className="bg-light-gray ml3 mr3">
+		<div className="bg-light-gray ml3 mr3" id="portfolio">
 			<div className="container ">
 						<div className="d-flex flex-column bd-highlight mb-3">
 						  <div className="p-2 bd-highlight tc b f2 head">PortFolio</div>

@@ -1,0 +1,32 @@
+
+
+.exp {
+  margin: 0;
+  font-family:"Courier New",Courier,monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, rgb(218, 226, 218), rgb(216, 211, 196));
+}
+
+.imag{
+width: 70%;
+height: auto;
+ background: url(uottawa.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ background: none;
+}
+
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+}
+
+.fntsize{
+	font-size: min(max(1rem, 4vw), 29px);
+}
+
+.headerexperience{
+	font-size: min(max(1.5rem, 4vw), 39px);
+}

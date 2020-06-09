@@ -10,7 +10,7 @@ height: auto;
 }
 
 .text{
-	    font-size: 18px;
+	    font-size: min(max(1rem, 4vw), 18px);
 		background: none;
 		text-align: left;
 		font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,
@@ -41,4 +41,12 @@ p::first-letter {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to right, rgb(255, 211, 158), rgb(216, 211, 196));
+}
+
+.headeraboutme{
+  font-size: min(max(1.5rem, 4vw), 39px);
+}
+
+.headerme{
+   font-size: min(max(1rem, 4vw), 29px);
 }

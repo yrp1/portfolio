@@ -14,3 +14,11 @@
 .bg2{
 	background-color: #FFC292;
 }
+
+.fontsize{
+	font-size: min(max(1rem, 4vw), 25px);
+}
+
+.headerportfolio{
+	font-size: min(max(1.5rem, 4vw), 39px);
+}

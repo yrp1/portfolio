@@ -39,23 +39,12 @@ const Navbar = () => {
 			      <li className="nav-item active">
 			        <Link
 					    activeClass="active"
-					    to="portfolio"
+					    to="projects"
 					    spy={true}
 					    smooth={true}
-					    offset={-20}
+					    offset={-10}
 					    duration= {500}>
-					    Portfolio </Link>
-			      </li>
-
-			        <li className="nav-item active">
-			        <Link
-					    activeClass="active"
-					    to="experience"
-					    spy={true}
-					    smooth={true}
-					    offset={-20}
-					    duration= {500}>
-					    Experience </Link>
+					    Projects </Link>
 			      </li>
 			   
 			    </ul>

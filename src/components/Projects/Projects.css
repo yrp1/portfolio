@@ -1,0 +1,47 @@
+
+
+.exp {
+  margin: 0;
+  font-family:"Courier New",Courier,monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, rgb(216, 211, 196), rgb(255, 211, 158));
+}
+
+
+
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+}
+
+.fntsize{
+	font-size: min(max(1rem, 2vw), 15px);
+}
+
+.headerexperience{
+	font-size: min(max(1.5rem, 4vw), 39px);
+}
+
+.card-img-top:hover{
+	transform: scale(1.5);
+}
+
+.card-img-top{
+	transform: scale(1);
+	transition :transform 0.5s ease;
+}
+
+.overflow{
+	overflow:visible;
+}
+
+.back{
+background:
+radial-gradient(circle, transparent 20%, white 20%, white 80%, transparent 80%, transparent),
+radial-gradient(circle, transparent 20%, white 20%, white 80%, transparent 80%, transparent) 50px 50px,
+linear-gradient(#00e5e5 8px, transparent 8px) 0 -4px,
+linear-gradient(90deg, #00e5e5 8px, transparent 8px) -4px 0;
+background-color: white;
+background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+

@@ -2,9 +2,11 @@ import React from 'react';
 import './App.css';
 import Navbar from "./components/Navbar/Navbar"
 import Aboutme from "./components/Aboutme/Aboutme"
-import Portfolio from "./components/Portfolio/Portfolio"
+import Projects from "./components/Projects/Projects"
 import Experience from "./components/Experience/Experience"
 import Page from "./Page"
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -12,8 +14,9 @@ function App() {
     <Page>
       <Navbar/>
       <Aboutme/>
-      <Portfolio/>
+      <Projects/>
       <Experience/>
+      <Footer/>
     </Page>
     </div>
   );

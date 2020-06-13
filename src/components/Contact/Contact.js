@@ -12,17 +12,17 @@ const Contact = () =>{
 						</div>
 						<hr/>
 						<div className="row">
-						  <div className="col-md-4">
+						  <div className="col-md-4 pa2">
 						  	<img src={email} class="img-responsive br-pill" alt="Responsive image"/>
 						  	<h4>Email</h4>
 						  	<span><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmlkCbMHppDJQXpKHlHFGJGfZdRjzTtSwJxdnZvfVrKwQSXlcCqjrGkLRcBGqhJwDJwmJJ">yashrpatelyrp@gmail.com</a></span>
 						  </div>
-						  <div className="col-md-4">
+						  <div className="col-md-4 pa2">
 						  	<img src={github} class="img-responsive br-pill" alt="Responsive image"/>
 						  	<h4>Github</h4>
 						  	<span><a href="https://github.com/yrp1">yrp1</a></span>
 						  </div>
-						  <div className="col-md-4">
+						  <div className="col-md-4 pa2">
 						  	<img src={linkedin} class="img-responsive br-pill" alt="Responsive image"/>
 						  	<h4>Linkedin</h4>
 						  	<span><a href="https://www.linkedin.com/in/yash-patel-aa9b28115/">Yash Patel</a></span>

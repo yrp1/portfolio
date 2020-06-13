@@ -31,7 +31,7 @@ const Experience = () =>{
 						</div>
 						<hr/>
 						 <div className="col-md-4 dib">
-						  	<img src={uottawa} class="img-responsive br-pill" alt="Responsive image"/>
+						  	<img src={uottawa} className="img-responsive br-pill" alt="uottawa"/>
 						  	<p>Graduated from University of Ottawa as a Electrical and Computer Engineer</p>
 						  	<b>2018-2020</b>
 						  </div>

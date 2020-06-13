@@ -13,19 +13,20 @@ const Contact = () =>{
 						<hr/>
 						<div className="row">
 						  <div className="col-md-4 pa2">
-						  	<img src={email} class="img-responsive br-pill" alt="Responsive image"/>
+						  	<img src={email} className="img-responsive br-pill" alt="email"/>
 						  	<h4>Email</h4>
-						  	<span><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmlkCbMHppDJQXpKHlHFGJGfZdRjzTtSwJxdnZvfVrKwQSXlcCqjrGkLRcBGqhJwDJwmJJ">yashrpatelyrp@gmail.com</a></span>
+						  	<span><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmlkCbMHppDJQXpKHlHFGJGfZdRjzTtSwJxdnZvfVrKwQSXlcCqjrGkLRcBGqhJwDJwmJJ"
+						  	className="btn btn-outline-success">E-mail</a></span>
 						  </div>
 						  <div className="col-md-4 pa2">
-						  	<img src={github} class="img-responsive br-pill" alt="Responsive image"/>
+						  	<img src={github} className="img-responsive br-pill" alt="github"/>
 						  	<h4>Github</h4>
-						  	<span><a href="https://github.com/yrp1">yrp1</a></span>
+						  	<span><a href="https://github.com/yrp1" className="btn btn-outline-success">GitHub</a></span>
 						  </div>
 						  <div className="col-md-4 pa2">
-						  	<img src={linkedin} class="img-responsive br-pill" alt="Responsive image"/>
+						  	<img src={linkedin} className="img-responsive br-pill" alt="linkedin"/>
 						  	<h4>Linkedin</h4>
-						  	<span><a href="https://www.linkedin.com/in/yash-patel-aa9b28115/">Yash Patel</a></span>
+						  	<span><a href="https://www.linkedin.com/in/yash-patel-aa9b28115/" className="btn btn-outline-success">Yash Patel</a></span>
 						  </div>
 						</div>
 			</div>

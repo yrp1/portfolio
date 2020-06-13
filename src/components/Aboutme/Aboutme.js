@@ -17,7 +17,7 @@ const Aboutme = () => {
 									I have a MEng degree in Electrical and Computer
 									Engineering from the University of Ottawa. Self and quick learner, 
 									highly motivated in learning and developing new skills. <br/><br/>Experienced in <b>HTML/HTML5, CSS/CSS3, SemanticUI, Responsive Design, Flexbox,
-									CSS Grid, Bootstrap 4, DOM Manipulation, Javascript, Asynchronous JavaScript, HTTP/JSON/AJAX, React + Redux, NPM, Git and Github
+									CSS Grid, Bootstrap 4, DOM Manipulation, Javascript, Asynchronous JavaScript, HTTP/JSON/AJAX, React + Redux, NPM
 									</b><br/><br/>
 									Currently I am seeking for new opportunities as a Frontend Developer. 
 									</i></p></div>

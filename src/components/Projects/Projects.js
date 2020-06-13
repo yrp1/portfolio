@@ -13,6 +13,7 @@ class Projects extends React.Component{
 				<div className="d-flex flex-column bd-highlight mb-3">
 					<div className="p-2 bd-highlight tc b headerexperience head">Projects</div>
 				</div>
+				<hr/>
 				<div className="container-fluid d-flex justify-content-center ">
 					<div className="row fntsize">
 						<div className="col-md-6 pa2">

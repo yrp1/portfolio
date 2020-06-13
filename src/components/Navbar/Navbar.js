@@ -46,6 +46,26 @@ const Navbar = () => {
 					    duration= {500}>
 					    Projects </Link>
 			      </li>
+			      <li className="nav-item active">
+			        <Link
+					    activeClass="active"
+					    to="Experience"
+					    spy={true}
+					    smooth={true}
+					    offset={-10}
+					    duration= {500}>
+					    Experience </Link>
+			      </li>
+			       <li className="nav-item active">
+			        <Link
+					    activeClass="active"
+					    to="Contact"
+					    spy={true}
+					    smooth={true}
+					    offset={-10}
+					    duration= {500}>
+					    Contact </Link>
+			      </li>
 			   
 			    </ul>
   			  </div>

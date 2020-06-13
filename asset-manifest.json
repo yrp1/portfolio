@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2650f5d3.chunk.css",
-    "main.js": "/portfolio/static/js/main.2f289e52.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2f289e52.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.6c71375d.chunk.css",
+    "main.js": "/portfolio/static/js/main.750b6747.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.750b6747.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
     "static/css/2.d811125f.chunk.css": "/portfolio/static/css/2.d811125f.chunk.css",
-    "static/js/2.34b285fc.chunk.js": "/portfolio/static/js/2.34b285fc.chunk.js",
-    "static/js/2.34b285fc.chunk.js.map": "/portfolio/static/js/2.34b285fc.chunk.js.map",
+    "static/js/2.dea75935.chunk.js": "/portfolio/static/js/2.dea75935.chunk.js",
+    "static/js/2.dea75935.chunk.js.map": "/portfolio/static/js/2.dea75935.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.6de55eec4b780daa38f920d534f2dd25.js": "/portfolio/precache-manifest.6de55eec4b780daa38f920d534f2dd25.js",
+    "precache-manifest.9378b667a7f7c60f3e162ddcd953a953.js": "/portfolio/precache-manifest.9378b667a7f7c60f3e162ddcd953a953.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.d811125f.chunk.css.map": "/portfolio/static/css/2.d811125f.chunk.css.map",
-    "static/css/main.2650f5d3.chunk.css.map": "/portfolio/static/css/main.2650f5d3.chunk.css.map",
-    "static/js/2.34b285fc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.34b285fc.chunk.js.LICENSE.txt",
+    "static/css/main.6c71375d.chunk.css.map": "/portfolio/static/css/main.6c71375d.chunk.css.map",
+    "static/js/2.dea75935.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dea75935.chunk.js.LICENSE.txt",
     "static/media/Meme.png": "/portfolio/static/media/Meme.3acef6d9.png",
     "static/media/Navbar.css": "/portfolio/static/media/bg.7b0ab1cc.jpg",
     "static/media/facerecog.png": "/portfolio/static/media/facerecog.9306d90b.png",
     "static/media/frontend.png": "/portfolio/static/media/frontend.69ced872.png",
     "static/media/robo.png": "/portfolio/static/media/robo.a81d161f.png",
+    "static/media/uottawa.jpg": "/portfolio/static/media/uottawa.7ecae964.jpg",
     "static/media/Aboutme.css": "/portfolio/static/media/yrp.6e01a399.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fb1b3dac.js",
     "static/css/2.d811125f.chunk.css",
-    "static/js/2.34b285fc.chunk.js",
-    "static/css/main.2650f5d3.chunk.css",
-    "static/js/main.2f289e52.chunk.js"
+    "static/js/2.dea75935.chunk.js",
+    "static/css/main.6c71375d.chunk.css",
+    "static/js/main.750b6747.chunk.js"
   ]
 }
